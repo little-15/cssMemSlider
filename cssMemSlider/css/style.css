@@ -47,6 +47,14 @@
   padding: 0 3rem;
 }
 
+@media (min-width: 992px) {
+  .inner-wrapper {
+    width: 50%;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+
 
 /*
  * Typography & elements
@@ -125,15 +133,34 @@ h4 {
   border-radius: 0.5rem;
 }
 
+@media (min-width: 992px) {
+  .slider__item img {
+    margin-bottom: 2rem;
+  }
+}
+
 .slider__text {
   height: 2rem;
   text-align: center;
+}
+
+@media (min-width: 992px) {
+  .slider__text {
+    flex-direction: row;
+    text-align: left;
+  }
 }
 
 .slider__text h4 {
   margin: 0;
   height: 0;
   padding-top: 3.5rem;
+}
+
+@media (min-width: 992px) {
+  .slider__text h4 {
+    padding: 0;
+  }
 }
 
 .slider__bullet {
@@ -145,6 +172,26 @@ h4 {
   margin-top: -1em;
   position: relative;
   cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  .slider__bullet {
+    display: block;
+    float: right;
+    margin-top: -2em;
+  }
+
+  .slider__bullet#label-1 {
+    margin-right: 6em;
+  }
+  
+  .slider__bullet#label-2 {
+    margin-right: 4em;
+  }
+  
+  .slider__bullet#label-3 {
+    margin-right: 2em;
+  }
 }
 
 .slider__bullet i {
