@@ -148,6 +148,7 @@ h4 {
   .slider__text {
     height: 2rem;
     text-align: left;
+    margin-right: 10rem;
   }
 }
 
@@ -171,12 +172,6 @@ h4 {
   padding: 0.75rem;
   position: relative;
   cursor: pointer;
-}
-
-@media (min-width: 992px) {
-  .slider__bullet {
-    margin-top: 0;
-  }
 }
 
 .slider__bullet i {
